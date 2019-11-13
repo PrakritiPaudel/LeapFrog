@@ -1,4 +1,4 @@
 name:Prakriti
 Hobby:Music
-College:Advanced college of eng.
+College:Advanced college
 
