@@ -1,4 +1,10 @@
 name:Prakriti
+<<<<<<< HEAD
 Hobby:Music,travelling
+age :22
 College:Advanced college of eng.
+=======
+Hobby:Music
+College:Advanced college
+>>>>>>> f181450cb7a46f2ab698b73b8b80be7827d0c6cb
 
