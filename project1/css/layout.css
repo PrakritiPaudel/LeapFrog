@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+
+
+.footer-col-left{   
+    float: left;
+    width: 361px;
+}
+.footer-col2-right{
+    float: right;;
+}
+.footer-col2-l-right{
+    float: left;
+}   
+.footer-col2-r-right{
+    float:right;
+}
+.middle-left{
+    float: left;
+}
+.middle-right{
+float: right;
+}

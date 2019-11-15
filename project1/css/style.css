@@ -1,0 +1,31 @@
+
+.rss{
+    background-image:url("../images/rss.png");
+    background-repeat: no-repeat;
+    height: 24px;
+    width:22px; 
+}
+.icon-holder{
+    float: right;
+    padding: 13px;
+}
+.icon{
+    float: left;
+}
+.footer-m-title{
+    font-size: 20px;
+    color: #4b8684;
+    font-weight: 800;
+    margin-left:-54px;
+}
+.footer-m-title li{
+    font-size: 16px;
+}
+.middle-left{
+}
+.middle-right{
+}
+.list{
+    padding-top: 30px;
+    padding-right:104px;;
+}
