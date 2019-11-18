@@ -3,3 +3,25 @@
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.header-wrapper{
+    margin-left:168px;
+    margin-right:173px;
+}
+.body-wrapper{
+    margin-left:168px;
+    margin-right:173px;
+    overflow: auto;
+}
+.body-content-wrapper{
+    margin-left:168px;
+    margin-right:173px;
+}
+.body-content-wrapper2{
+    overflow: auto;
+    padding-bottom: 72px;;
+}
+.footer-wrapper{
+    margin-left:168px;
+    margin-right:173px;
+    margin-top: 45px;
+}
