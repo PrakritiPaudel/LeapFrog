@@ -1,0 +1,496 @@
+
+
+
+html {
+  line-height: 1;
+}
+
+
+ol, ul {
+  list-style: none;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+
+q, blockquote {
+  quotes: none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+
+a img {
+  border: none;
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+
+nav.first-menu {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+
+nav {
+  height: 80px;
+  background-color: #76C7C0;
+  line-height: 80px;
+  border-image: url(../img/border.png) repeat;
+  -webkit-box-shadow: 0 5px 5px 0 #a1a1a1;
+  -moz-box-shadow: 0 5px 5px 0 #a1a1a1;
+  box-shadow: 0 5px 5px 0 #a1a1a1;
+}
+
+nav h1 a {
+  font: 700 3rem "Open Sans", sans-serif;
+  color: white;
+  float: left;
+  text-decoration: none;
+}
+
+nav ul {
+  display: inline;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+nav ul li a:hover {
+  color: #E1524B;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  text-transform: uppercase;
+  font: 1.3rem "Open Sans", sans-serif;
+}
+
+
+.intro {
+  padding: 0 8% 0 8%;
+}
+
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 40px 8%;
+}
+
+.benefits h2 {
+  font: bold 1.6rem "Open Sans", sans-serif;
+  color: #7d8a8a;
+  margin: 10px 0;
+}
+
+.benefits p {
+  margin-top: 20px;
+  font: 1.3rem "Open Sans", sans-serif;
+  color: #98A2A2;
+}
+
+.benefits .why-choose-us {
+  flex: 10;
+}
+
+.benefits .why-choose-us ul li {
+  font: 1.3rem "Open Sans", sans-serif;
+  color: #98A2A2;
+  list-style-image: url("../img/list.jpg");
+  list-style-position: inside;
+}
+
+.benefits .testimonials {
+  flex: 10;
+}
+
+.benefits .our-benefits {
+  flex: 10;
+}
+.benefits .our-benefits img {
+  float: left;
+}
+
+
+.back {
+  color: white;
+  background: #76C7C0 none;
+}
+
+
+.our-team {
+  background-color: #ECECEC;
+}
+
+.our-team figure {
+  width: 270px;
+  height: 310px;
+  background: white url("../img/fota.jpg") no-repeat 50% 50%;
+  margin: 0 0 30px 14px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  -webkit-box-shadow: 0 5px 5px 0 #a1a1a1;
+  -moz-box-shadow: 0 5px 5px 0 #a1a1a1;
+  box-shadow: 0 5px 5px 0 #a1a1a1;
+}
+
+.our-team h2 {
+  text-align: center;
+  font: 700 4rem "Open Sans", sans-serif;
+  color: #98A2A2;
+  text-transform: uppercase;
+  margin: 80px 0;
+  line-height: 48px;
+  box-sizing: border-box;
+}
+
+.our-team .page-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.our-team .page-wrap figcaption {
+  width: 200px;
+  height: 55px;
+  box-sizing: border-box;
+  background-color: #98A2A2;
+  border-radius: 10px;
+  position: relative;
+  margin: 250px auto 0 auto;
+  padding: 20px;
+  color: white;
+  -webkit-box-shadow: 0 5px 5px 0 #a1a1a1;
+  -moz-box-shadow: 0 5px 5px 0 #a1a1a1;
+  box-shadow: 0 5px 5px 0 #a1a1a1;
+}
+
+.our-team .page-wrap figcaption p {
+  text-align: center;
+  font: 1.4rem "Open Sans", sans-serif;
+}
+
+
+.toggle-nav {
+  display: none;
+}
+
+
+.second-menu {
+  width: 100%;
+  height: 80px;
+  margin: 70px auto 0 auto;
+  background-color: #ECECEC;
+  color: #98A2A2;
+  font-size: 2.0rem;
+  padding-left: 10%;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.second-menu ul {
+  float: left;
+}
+
+.second-menu ul li {
+  display: inline;
+}
+
+.second-menu ul li a {
+  text-decoration: none;
+  color: #98A2A2;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.intro {
+  background-color: white;
+}
+
+.intro h2 {
+  font: 3rem "Open Sans", sans-serif;
+  color: #E1524B;
+  margin-top: 62px;
+}
+
+.intro p {
+  font: 1.4rem "Open Sans", sans-serif;
+  color: #98A2A2;
+  margin-top: 3.1rem;
+  line-height: 2.0rem;
+}
+
+
+.page-wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.slogan {
+  background-color: #ECECEC;
+}
+
+.slogan h2 {
+  font: 4rem "Open Sans", sans-serif;
+  color: #E1524B;
+  text-align: center;
+  padding-top: 100px;
+  width: 90%;
+}
+
+.slogan p {
+  font: 1.4rem "Open Sans", sans-serif;
+  color: #98A2A2;
+  text-align: center;
+  margin: 30px 10% 0 10%;
+}
+
+
+.slider {
+  background-color: #ECECEC;
+  width: 100%;
+}
+.slider button {
+  border-radius: 15%;
+  width: 40px;
+  height: 40px;
+  background-color: #E1524B;
+  float: right;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: -30px;
+}
+
+.slider .active {
+  background-color: #98A2A2;
+}
+
+.slider p {
+  font: bold 1.5rem "Open Sans", sans-serif;
+  color: #98A2A2;
+  margin-left: 140px;
+  padding-top: 70px;
+}
+
+.slider .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.slider figure {
+  width: 170px;
+  height: 90px;
+  background: white url("../img/jquery.png") no-repeat 50% 50%;
+  border-radius: 5px;
+  margin: 10px 20px 20px 0;
+}
+
+
+footer {
+  background-color: #76C7C0;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-family: "Open Sans", sans-serif;
+  flex-direction: row;
+  padding: 50px 7px 0 7px;
+  line-height: 23px;
+}
+
+footer article {
+  padding: 20px;
+}
+
+footer h2 {
+  font: bold 2.5rem "Open Sans", sans-serif;
+  margin-bottom: 32px;
+}
+
+footer p {
+  font-size: 1.5rem;
+}
+
+footer a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+footer li {
+  list-style-image: url("../img/chevron.png");
+  list-style-position: inside;
+}
+
+footer .modus {
+  flex: 1;
+}
+
+footer .company {
+  flex: 1;
+}
+
+footer .community {
+  flex: 1;
+}
+
+footer .from-the-blog {
+  flex: 1;
+}
+
+@media screen and (max-width: 1366px) {
+  
+  .img-wrapper img {
+    display: none;
+  }
+}
+@media screen and (max-width: 860px) {
+  
+  footer {
+    flex-direction: column;
+  }
+
+  
+  .slogan h2 {
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  
+  .first-menu {
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  .first-menu ul {
+    display: inline-block;
+    width: 100%;
+    background-color: #76C7C0;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    margin: 73px auto 0 auto;
+    line-height: 1.3rem;
+  }
+  
+  .first-menu ul li {
+    float: none;
+    display: block;
+    border-bottom: solid 1px #3e9991;
+    padding: 10px 0;
+  }
+  
+  .first-menu ul li a {
+    font-size: 1.3rem;
+    margin-right: 0;
+  }
+  
+  .first-menu ul.active {
+    display: none;
+  }
+
+  
+  .toggle-nav {
+    display: inline-block;
+    float: right;
+    position: relative;
+    z-index: 100;
+    color: white;
+    font-size: 2.0rem;
+    text-decoration: none;
+  }
+
+  
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .benefits h2 {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+
+.intro h2 {
+  margin-top: 80px;
+}
+
+.intro p {
+  margin-top: 2.5rem;
+}
+
+
+.benefits h2 {
+  margin-top: 20px;
+}
+
+.benefits p {
+  margin-bottom: 20px;
+}
+
+
+.slider {
+  width: 100%;
+}
+
+.slider p {
+  margin: 0 0 30px 0;
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+.our-team {
+  padding-top: 10px;
+}
+
+.our-team h2 {
+  margin: 20px 0;
+}
+
