@@ -1,89 +1,245 @@
-.fixheader-wrapper{
-	max-width:1103px;
-	margin: 0 auto;
-	
-	
-}
-
-.header-wrapper{
-	
-	background:black;
-	height: 70px;
-}
-.nav-wrapper{
-	padding-top: 20px;
-	padding-bottom: 23px;
-}
 
 
-.logo{
-	float: left;
-	display: inline block;
-    background-repeat: no-repeat;
-    
+
+.headerwrapper .logo
+{
+  width: auto;
+  float: left;
+  position: relative;
+  top:-27px;
+  padding-left: 152px;
 }
 
-.navbar{
-    float: right;
-    
-}
-.menu{
-	margin-right: 45px;
-	float: left;
-	
-}
-.navbar a{
-	color: white;
-	text-decoration: none;
+.headerwrapper .nav-bar ul
+{
+  list-style-type: none;
+  width: auto;
+  float: right;
+  position: relative;
+  top:-20px;
+
 }
 
-.body-wrapper{
-	height: 644px;
-	background-image: url("../images/background.png");
-}
-.fixbody-wrapper{
-	max-width:1103px;
-	margin: 0 auto;
-}
-.content-wrapper{
-	float: left;
-	padding-top: 110px;
-	padding-bottom:139px ;
-	width: 514px;
-	color: white;
+.imgwrapper
+{
+  padding-left: 140px;
+  padding-top: 112px;
+
 }
 
-/* .logo2{
-	margin-bottom: 37px;
+.imgwrapper .info
+{
+  width: 45%;
+  float: left;
+}
+
+.imgwrapper .sign-up
+{
+  width: 28%;
+  float: left;
+  position: relative;
+  left: 150px;
+}
+
+
+.imgwrapper .logo-img
+{
+  display: block;
+  padding-bottom: 34px;
+}
+
+.imgwrapper .heading
+{
+  padding-bottom: 30px;
+}
+
+.imgwrapper .dash-img
+{
+  padding-bottom: 18px;
+}
+
+.imgwrapper .para
+{
+  padding-bottom: 48px;
+
+}
+
+.imgwrapper a
+{
+  display: block;
+  width: 75px;
+  border: 2px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 60px;
+
+}
+
+
+
+/* .header
+{
+  background: url('../images/image.png');
 } */
 
-.container h1{
-	margin-bottom: 43px;
-	font-family: 'Raleway', sans-serif;
-}
-.container img{
-	margin-bottom: 37px;
-}
-.container p{
-	margin-bottom:47px ;
-	font-family: 'Raleway', sans-serif;
-	
-}
-.line{
-	margin-bottom: 40px;
-}
-.btn {
-	border: 2px white solid;
-	background: transparent;
-	height: 42px;
-	width: 135px;
-	cursor: pointer;
-	font-size: 13px;
-	padding:10px 20px 10px 20px;
-	
+.imgwrapper
+{
+  background: url('../images/background.png');
+  background-color: black;
 }
 
-/* form css  */
+.headerwrapper
+{
+  background-color: black;
+  padding-top: 60px;
+
+}
+
+
+.headerwrapper .nav-bar ul li
+{
+  display: inline;
+  padding-right: 47px;
+
+}
+
+.headerwrapper .nav-bar ul li a
+{
+  color: white;
+  font-size: 14px;
+  font-family: 'Open Sans', serif ;
+  font-weight: 600; /*semi-bold*/
+  text-decoration: none;
+
+}
+
+.headerwrapper .nav-bar ul li:last-child
+{
+  padding-right: 145px;
+}
+
+.imgwrapper
+{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding-left: 205px;
+}
+
+.imgwrapper h2
+{
+  text-transform:uppercase;
+  font-size: 36px;
+  
+
+}
+
+
+.headerwrapper .logo{
+	padding-left: 205px;
+	
+}
+.imgwrapper a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600; /*semi-bold*/
+
+}
+
+.imgwrapper a:hover
+{
+  background: black;
+}
+
+.sign-up
+{
+  background-color: white;
+
+}
+
+
+.sign-up .heading
+{
+  font-size:20px;
+  font-family: 'Open Sans', serif ;
+  font-weight: bold;
+  color: rgba(51,51,51,255);
+  text-transform: capitalize;
+  padding-left: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #f2f2f2;
+
+
+
+}
+
+.sign-up .heading .yellow
+{
+  color: rgba(255,139,56,255);
+  text-transform: uppercase;
+}
+
+.sign-up input[type='text'],
+.sign-up input[type='password'],
+.sign-up input[type='email']
+{
+  
+  font-family:  'Open Sans', serif;
+  font-size: 14px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  display: block;
+  width: inherit;
+  padding-left: 54px;
+  padding-top: 50px;
+  outline: none;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  width: 65%;
+
+}
+
+.sign-up input[type='submit']
+{
+  
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  
+  background-color: #e67300;
+  margin-top: 60px;
+  font-family:  'Open Sans', serif;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.9;
+  display: block;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+
+}
+
+.sign-up input[type='submit']:hover
+{
+  background-color: black;
+  cursor: pointer;
+}
+
+.sign-up input[type='submit']:focus
+{
+  outline:none;
+}
+
+.sign-up input[type='submit']:active
+{
+    background-color: #e67300;
+}
 	
 
 .social-wrapper{
