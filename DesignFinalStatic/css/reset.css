@@ -1,0 +1,12 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.clearfix::before, .clearfix::after{
+	content: "";
+	display: table;
+}
+
+.clearfix::after{
+	clear: both;
+}

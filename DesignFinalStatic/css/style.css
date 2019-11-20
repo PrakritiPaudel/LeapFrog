@@ -1,0 +1,520 @@
+.fixheader-wrapper{
+	max-width:1103px;
+	margin: 0 auto;
+	
+	
+}
+
+.header-wrapper{
+	
+	background:black;
+	height: 70px;
+}
+.nav-wrapper{
+	padding-top: 20px;
+	padding-bottom: 23px;
+}
+
+
+.logo{
+	float: left;
+	display: inline block;
+    background-repeat: no-repeat;
+    
+}
+
+.navbar{
+    float: right;
+    
+}
+.menu{
+	margin-right: 45px;
+	float: left;
+	
+}
+.navbar a{
+	color: white;
+	text-decoration: none;
+}
+
+.body-wrapper{
+	height: 644px;
+	background-image: url("../images/background.png");
+}
+.fixbody-wrapper{
+	max-width:1103px;
+	margin: 0 auto;
+}
+.content-wrapper{
+	float: left;
+	padding-top: 110px;
+	padding-bottom:139px ;
+	width: 514px;
+	color: white;
+}
+
+/* .logo2{
+	margin-bottom: 37px;
+} */
+
+.container h1{
+	margin-bottom: 43px;
+	font-family: 'Raleway', sans-serif;
+}
+.container img{
+	margin-bottom: 37px;
+}
+.container p{
+	margin-bottom:47px ;
+	font-family: 'Raleway', sans-serif;
+	
+}
+.line{
+	margin-bottom: 40px;
+}
+.btn {
+	border: 2px white solid;
+	background: transparent;
+	height: 42px;
+	width: 135px;
+	cursor: pointer;
+	font-size: 13px;
+	padding:10px 20px 10px 20px;
+	
+}
+
+/* form css  */
+	
+
+.social-wrapper{
+	background-color: white;
+	height: 200px;
+}
+
+.fixsocial-wrapper .socialtext{
+	
+	
+	width: 15%;
+
+	float: left;
+
+	padding-left: 205px;
+
+	
+
+}
+.fixsocial-wrapper .socialtext h1{
+	margin-top: 24px;
+	margin-bottom: 24px;
+	font-family: 'Open Sans bold', sans-serif;
+	font-display: smooth;
+	line-height: 14px;
+}
+.fixsocial-wrapper .socialtext p{
+	
+	font-family: 'Open Sans', sans-serif;
+	
+
+}
+.socialimage ul{
+	width: 75%;
+	float: right;
+	position: relative;
+	top:-150px;
+	left:50px;
+}
+
+.socialimage ul li{
+	list-style-type: none;
+	display: inline;
+	padding:30px;
+}
+
+/* tabs */
+.tabwrapper
+{
+  padding-left: 205px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.tabwrapper .tabs
+{
+   width:12%;
+   
+   float: left;
+}
+.tabwrapper .text
+{
+   width: 45%;
+   float: left;
+  
+}
+.tabwrapper .image
+{
+   width: 25%;
+   float: left;
+   position: relative;
+   left: 50px;
+}
+.tabwrapper .text a
+{
+  display: block;
+  width: 60px;
+  border: 2px solid #E67300;;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+.tabwrapper
+{
+    background-color: #F2F2F2;
+}
+.tabwrapper .text a
+{
+   text-decoration: none;
+   color: white;
+   background-color: #E67300;
+}
+.tabwrapper .text a:hover
+{
+  background-color: #F2F2F2;
+  color:#e67300;
+}
+.tabwrapper .text h1
+{
+   color: rgba(0,0,0,255);
+   font-size: 20px;
+   font-family: 'Open Sans', serif;
+   font-weight: bold;
+   padding-bottom: 35px;
+}
+.tabwrapper .para p
+{
+  padding-bottom: 20px;
+  color: rgba(134,135,139,255);
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  text-align: justify;
+  padding-right: 30px;
+}
+.tabwrapper .para p:last-child
+{
+  padding-bottom: 50px;
+}
+.tabwrapper .text a
+{
+   border-radius: 3px;
+   color: rgba(255,255,255,255);
+   font-family: 'Open Sans', serif;
+   font-size: 15px;
+   font-weight: 600;
+}
+.tabwrapper  .tabs a:first-child
+{
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.tabwrapper  .tabs a:last-child
+{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.tabwrapper  .tabs  a
+{
+  display: block;
+  border:1px solid black;
+  height: 125px;
+  width: 115px;
+  background-color: black;
+  border-bottom-color: white;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 120px;
+  color: rgba(255,255,255,255);
+  font-size: 15px;
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.tabwrapper  .tabs  a:hover
+{
+    background-color: rgba(255,139,56,255);
+    border-color: rgba(255,139,56,255);
+    border-bottom-color: white;
+}
+
+
+/* sublistsection */
+.sublistsection .sublistimage{
+	width:50%;
+}
+.sublistsection .sublistimage .image{
+	padding-left: 205px;
+	height: 340px;
+	padding-top: 125px;
+	width: 455px;
+
+	float: left;
+	
+}
+.sublisttext ul li{
+	text-decoration: none;
+	list-style: none;
+}
+.sublisttext2 .icon1{
+	height: 40px;
+	width: 40px;
+	
+}
+.sublisttext2 .icon2{
+	height: 40px;
+	width: 40px;
+	
+}
+	
+.icon{
+	height: 30px;
+	width: 30px;
+}
+.sublisttext2 h2{
+	padding-left: 60px;
+}
+.sublisttext2 p{
+	padding-left: 60px;
+}
+
+
+
+
+.sublistsection .sublisttext{
+	width:30%;
+	float: right;
+	padding-top: 110px;
+	padding-right: 180px;
+	
+
+	
+}
+.sublisttext h1{
+	padding-bottom:20px;
+}
+.sublisttext img{
+	background-color:orangered;
+	height: 2px;
+	width: 50px;
+	
+	
+}
+.sublisttext p{
+	font-family:OpenSa;
+	color: rgba(134,135,139,25);
+	font-size: 14px;
+	padding-top: 20px;
+	
+
+}
+.standard{
+	background-color:#f5f5f5;
+}
+
+.standardtext{
+	width:30%;
+	float: left;
+}
+.standard .line{
+	background-color:orangered;
+	height: 2px;
+	width: 50px;
+
+}
+.para .para1{
+	padding-bottom: 20px;
+
+}
+.standard .standardimage{
+	
+	float: right;
+
+}
+.standardtext{
+	padding-left: 205px;
+	padding-top: 100px;
+	width: 30%;
+}
+.standardimage{
+	width:40%;
+	float: right;
+	padding-top: 110px;
+	padding-right: 50px;
+}
+.standardtext h1{
+	padding-bottom: 25px;
+}
+
+/* Awesome */
+.awesomewrapper{
+	background-color: white;
+	height: 615px;
+}
+
+.awesomebottom .col-1{
+	width: 15%;
+	float: left;
+	padding-left: 205px;
+	padding-right: 50px;
+
+}
+.awesometop{
+	text-align: center;
+	padding-top: 100px;
+}
+
+.awesometop .lineimg{
+	background-color:orangered;
+	height: 2px;
+	width: 50px;
+	margin-bottom: 27px;
+}
+.awesometop h1{
+	margin-bottom: 27px ;
+}
+.awesometop p{
+	margin-bottom: 27px;
+}
+
+
+/* Pricing css */
+.pricing
+{
+    background-color: #F2F2F2;
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+.pricingdown
+{
+   padding-top: 100px;
+   padding-left: 100px;
+}
+.pricingdownblock a
+{
+  text-decoration: none;
+}
+.pricingdownblock a .type
+{
+  margin-bottom: 1px;
+}
+.pricingdownblock a .type,
+.pricingdownblock a .price,
+.pricingdownblock a .scheme
+{
+  display: block;
+  background-color: #333333;
+  width:320px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color:white;
+}
+.pricingdownblock a .price,
+.pricingdownblock a .scheme
+{
+  height: 20px;
+  line-height: 20px;
+}
+.pricingdownblock a .speciality
+{
+  display: block;
+  color:white;
+  background-color: rgba(255,139,56,255);
+  width:320px;
+  height: 5px;
+  line-height: 25px;
+  text-align: center;
+}
+.pricingdownblock
+{
+  width:27%;
+  padding: 30px;
+  float: left;
+}
+.pricingdownblock a ul
+{
+  list-style-type: none;
+  width:320px;
+}
+.pricingdownblock a ul li
+{
+  color: rgba(134,135,139,255);
+  font-size: 14px;
+  font-family: 'Open Sans', serif;
+  text-align: center;
+  height: 20px;
+  background-color: white;
+  margin-bottom: 1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  text-transform: uppercase;
+}
+.pricingdownblock a .speciality
+{
+  color:rgba(255,255,255,255);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', serif;
+  font-weight: bold;
+}
+.pricingdownblock a .scheme
+{
+  font-size: 14px;
+  font-style: italic;
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
+  color: #ADADAD;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.pricingdownblock a .price
+{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color:rgba(255,255,255,255);
+  font-size: 94px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.pricingdownblock a .price .sign
+{
+  font-size: 35px;
+}
+.pricingdownblock a .type
+{
+  color: rgba(255,255,255,255);
+  font-family: 'Open Sans', serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.pricingdownblock a:hover
+{
+   position: relative;
+   top:-40px;
+}
+.pricingdownblock a:hover .speciality
+{
+   height: 25px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.pricingup{
+	text-align: center;
+}
+
+
+	.pricingup .lineprice{
+		background-color:orangered;
+		height: 2px;
+		width: 50px;
+	}
+	
+	
