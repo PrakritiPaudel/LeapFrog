@@ -672,5 +672,330 @@
 		height: 2px;
 		width: 50px;
 	}
+
+	/* what customers say */
+
 	
 	
+
+	.customertail .testimonial
+	{
+	  width: auto;
+	  float: left;
+	  padding-left: 97px;
+	}
+	
+	.testimonial .container
+	{
+	  background-color: #f5f5f5;
+	  width: 240px;
+	  text-align: justify;
+	  padding: 30px;
+	  border-radius: 2px;
+	  color: #f5f5f5;
+	  font-size: 14px;
+	  font-family: 'Open Sans',serif;
+	  font-style: italic;
+	
+	
+	}
+	
+	.testimonial .downarrow img
+	{
+		position: relative;
+		left: 20px;
+	}
+	
+	.boy .picture
+	{
+	  width: auto;
+	  float: left;
+	}
+	
+	.boy .statement
+	{
+	  padding-left: 18px;
+	  width: auto;
+	  float: left;
+	}
+	
+	.boy .statement h1
+	{
+	  color: #adadad;
+	  font-size: 22px;
+	  font-family: 'Open Sans',serif;
+	  text-transform: capitalize;
+	
+	}
+	.boy .statement p
+	{
+	  color: #adadad;
+	  font-size: 14px;
+	  font-family: 'Open Sans',serif;
+	  text-transform: capitalize;
+	}
+	
+
+	.customerwrapper .customerhead
+{
+  text-align: center;
+}
+
+.customerwrapper .customerhead h1
+{
+ padding-top:40px;
+  padding-bottom:20px;
+  font-size: 36px;
+  color:rgba(33,33,33,255);
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+
+.customerwrapper .customerhead .divider
+{
+  padding-bottom: 25px;
+}
+
+
+.customerwrapper .customerhead p
+{
+  color: rgba(134,135,139,255);
+  font-size: 14px;
+  font-family: 'Open Sans', serif;
+}
+
+.customertail
+{
+  padding-top: 80px;
+  padding-left: 28px;
+}
+.container p{
+	color: black;
+ font-family: 'Open Sans', serif;
+ 
+}
+
+
+/* stylish axure */
+.axurewrapper
+{
+  text-align: center;
+  color: white;
+  background: url('../images/axure.png');
+  padding-top: 80px;
+  padding-bottom: 100px;
+  margin-top: 30px;
+}
+
+
+
+.axurewrapper h1
+{
+  padding-bottom: 15px;
+  
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+}
+
+.axurewrapper .divider
+{
+  padding-bottom: 15px;
+}
+
+.axurewrapper p
+{
+   padding-bottom: 20px;
+   color: rgba(255,255,255,255);
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   opacity: 0.6;
+}
+
+.axurewrapper a
+{
+
+  color:white;
+  text-decoration: none;
+  position: relative;
+  top: 30px;
+  font-size: 15px;
+  font-family: 'Open Sans',serif;
+  font-weight: 600;
+  border: 1.5px solid white; /*download border */
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+
+}
+
+.axurewrapper a:hover
+{
+  background-color: black;
+}
+
+.contacttop
+{
+	text-align: center;
+	
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.contactform .formleft{
+	padding-left: 140px ;
+	padding-right:20px ;
+}
+
+.contactwrapper .text
+{
+  text-align: center;
+}
+
+.contactwrapper .text h1
+{
+  padding-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.contactwrapper .text .divider
+{
+   padding-bottom: 20px;
+}
+
+.contactwrapper .text p
+{
+    color: rgba(134,135,139,255);
+    font-size: 14px;
+    font-family: 'Open Sans',serif;
+
+}
+
+.contactform
+{
+  padding-top: 100px;
+  padding-left: 120px;
+}
+
+.contactform input[type='text']
+{
+	border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  margin-bottom: 30px;
+  display: block;
+  font-size: 14px;
+  font-family: 'Open Sans',serif;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  
+}
+
+
+
+.contactform textarea
+{
+  width: 600px;
+  height: 300px;
+  margin-left: 130px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  font-size: 14px;
+  font-family: 'Open Sans',serif;
+}
+
+
+.contactform input[type='submit']
+{
+  display: block;
+  
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #ff9b51;
+  margin-top: 60px;
+  font-family:  'Open Sans', serif;
+  font-size: 15px;
+  
+  font-weight: 600;
+  opacity: 0.9;
+  border-radius: 3px;
+  position: relative;
+  left: 480px;
+  bottom: 100px;
+}
+
+.contactform input[type='submit']:hover
+{
+  background-color: black;
+  cursor: pointer;
+}
+
+.contactform input[type='submit']:focus
+{
+  outline:none;
+}
+
+.formleft
+{
+  width: auto;
+  float: left;
+
+}
+
+.formleft
+{
+  width: auto;
+  float: left;
+}
+/* footercss */
+
+.footerwrapper .footericons ul
+{
+  list-style-type: none;
+  padding-top: 30px;
+}
+
+.footerwrapper .footericons ul li
+{
+
+  display: inline;
+  padding: 10px;
+
+
+}
+.copyright
+{
+	font-size: 12px;
+  color: white;
+  padding-top: 25px;
+  font-family:  'Open Sans', serif;
+  
+
+}
+
+
+
+.footerwrapper
+{
+    padding-bottom: 12px;
+    background-color: black;
+
+}
+
+
+
