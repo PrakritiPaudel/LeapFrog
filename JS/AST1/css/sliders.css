@@ -1,0 +1,78 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.carousel-container{
+    width: 800px;
+    height: 590px;
+    overflow: hidden;
+    position: relative;    
+    z-index: 10;
+    
+}
+.carousel-image-wrapper{
+    
+    /* width:2410px;  */
+    position: absolute;
+    z-index: 20;
+    
+    
+}
+.button{
+    position: relative;
+    padding:30px;
+    
+    font-size: 50px;
+    color:blue;
+    
+    z-index: 30;
+    top: 40%;
+    
+}
+
+ .prev{
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    
+    /* width: 40px;
+    height: 40px; */
+
+}
+
+.next
+
+{
+    position: absolute;
+    top: 40%;
+    right: 30px; 
+    cursor: pointer;
+
+} 
+
+#prev:hover, #next:hover{
+    background: white;
+    opacity: 0.5;
+}
+
+.dots-container{
+    text-align: center;
+    
+    padding-right:150px;
+    
+}
+
+ .dots{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background-color:blue;
+    border-radius: 50%;
+    
+
+} 
+
+
