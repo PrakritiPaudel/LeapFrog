@@ -11,10 +11,11 @@
     this.parentElement = parentElement;
     var that = this;
 
-    this.init = function() {
+    this.init = function(i) {
       var box = document.createElement("div");
       box.style.height = this.height + "px";
       box.style.width = this.width + "px";
+      box.setAttribute('id', i);
       box.classList.add("box");
       this.parentElement.appendChild(box);
       this.element = box;
@@ -93,7 +94,7 @@
   }
 
   function Game(parentElement, boxCount) {
-    var boxes = [];
+    this.boxes = [];
     var MAX_WIDTH = 500;
     var MAX_HEIGHT = 500;
     this.parentElement = parentElement;
@@ -101,7 +102,7 @@
 
     this.startGame = function() {
       for (var i = 0; i < this.boxCount; i++) {
-        var box = new Box(parentElement).init();
+        var box = new Box(parentElement).init(i);
 
         //  //avoid overlapping
         //  if(i!=0)
@@ -122,7 +123,7 @@
           getRandomArbitrary(0, MAX_HEIGHT - box.height)
         );
         box.draw();
-        boxes.push(box);
+        this.boxes.push(box);
       }
 
       setInterval(this.moveBoxes.bind(this), 100);
@@ -130,13 +131,32 @@
 
     this.moveBoxes = function() {
       for (var i = 0; i < this.boxCount; i++) {
-        boxes[i].move();
-        boxes[i].checkCollision(boxes, i);
+        this.boxes[i].move();
+        this.boxes[i].checkCollision(this.boxes, i);
       }
     };
   }
 
+  
+
+
+
   var parentElement = document.getElementById("app");
 
-  new Game(parentElement).startGame();
-})();
+  var game=new Game(parentElement);
+  game.startGame();
+  console.log(game);
+var ants = parentElement.getElementsByTagName('div');
+for(var j=0;j<ants.length;j++){
+  ants[j].addEventListener('click', function(e){
+    e.preventDefault();
+    this.remove(e.target.getAttribute('id'));
+    
+    game.boxes.splice(j,1);
+  })
+}
+
+ 
+
+
+})(); 
