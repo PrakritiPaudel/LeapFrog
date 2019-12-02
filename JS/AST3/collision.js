@@ -98,7 +98,7 @@
     var MAX_WIDTH = 500;
     var MAX_HEIGHT = 500;
     this.parentElement = parentElement;
-    this.boxCount = boxCount || 10;
+    this.boxCount = boxCount || 50;
 
     this.startGame = function() {
       for (var i = 0; i < this.boxCount; i++) {
