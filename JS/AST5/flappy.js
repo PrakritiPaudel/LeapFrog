@@ -1,78 +1,124 @@
-var cvs = document.getElementById("canvas");
-var ctx = cvs.getContext("2d");
-// load images
-var bird = new Image();
-var bg = new Image();
-var fg = new Image();
-var pipeNorth = new Image();
-var pipeSouth = new Image();
-bird.src = "images/bird.png";
-bg.src = "images/bg.png";
-fg.src = "images/fg.png";
-pipeNorth.src = "images/pipeNorth.png";
-pipeSouth.src = "images/pipeSouth.png";
-// some variables
-var gap = 85;
-var constant;
-var bX = 10;
-var bY = 150;
-var gravity = 1.5;
-var score = 0;
-// on key down
+var startGame=function()
+{
+
+
+let cvs= document.getElementById('canvas');
+let ctx= cvs.getContext('2d');
+let start = document.getElementById('btnstart');
+
+start.style.display="none";
+
+var bird=new Image();
+bird.src='bird.png';
+var bg=new Image();
+bg.src='img/bg.png';
+var fg=new Image();
+fg.src="img/fg.png";
+var pipeNorth=new Image();
+pipeNorth.src="img/pipeNorth.png";
+var pipeSouth=new Image();
+pipeSouth.src="img/pipeSouth.png";
+var restartimg=new Image();
+restartimg.src="img/restart.png";
+var birdState="running";
+
+
+var gap=350;
+var bX=10;
+var bY=150;
+var constant =pipeNorth.height+gap;
+var gravity=1.5;
+var pipe=[];
+var score=0;
+var status;
+
+    pipe[0]={
+        x:cvs.width,
+        y:-10
+    }
+
 document.addEventListener("keydown",moveUp);
-function moveUp(){
-    bY -= 25;
+
+    function moveUp()
+    {
+        bY-=30;
+    }
+
+
+bird.onload=function()
+{
+    draw();
 }
-// pipe coordinates
-var pipe = [];
-pipe[0] = {
-    x : cvs.width,
-    y : 0
-};
-// draw images
+
+
+var storescore=0;
+
 function draw(){
+    
+    //ctx.clearRect(0,0,cvs.height,cvs.width);
     ctx.drawImage(bg,0,0);
-    for(var i = 0; i < pipe.length; i++){
-        constant = pipeNorth.height+gap;
+    if( birdState=="running"){
+
+    for(var i=0;i<pipe.length;i++)
+    {
+
         ctx.drawImage(pipeNorth,pipe[i].x,pipe[i].y);
+        console.log("constant>>",constant);
         ctx.drawImage(pipeSouth,pipe[i].x,pipe[i].y+constant);
+        console.log("pipe north>>",pipe[i].y+pipeNorth.height);
+        console.log("pipe south>>",pipe[i].y+constant);
+        ctx.drawImage(fg,0,cvs.height-fg.height);
+        ctx.drawImage(bird,bX,bY);
         pipe[i].x--;
-        if( pipe[i].x == 125 ){
+        if(pipe[i].x==125){
             pipe.push({
-                x : cvs.width,
-                y : Math.floor(Math.random()*pipeNorth.height)-pipeNorth.height
-            });
+                x: cvs.width,
+                y:Math.floor(Math.random()*pipeNorth.height)-pipeNorth.height
+            })
         }
-        // detect collision
-        if( bX + bird.width >= pipe[i].x && bX <= pipe[i].x + pipeNorth.width && (bY <= pipe[i].y + pipeNorth.height || bY+bird.height >= pipe[i].y+constant) || bY + bird.height >=  cvs.height - fg.height){
-            location.reload(); // reload the page
-        }
-        if(pipe[i].x == 5){
+        if(pipe[i].x==5){
             score++;
         }
+        if(bX+bird.width>=pipe[i].x && bX <= pipe[i].x+pipeNorth.width &&(bY<= pipe[i].y+pipeNorth.height||bY+bird.height>=pipe[i].y+constant||bY+bird.height>=cvs.height-fg.height)){
+            storescore = score;
+            score=0; 
+            
+            birdState="dead";
+           }
+        
     }
-    ctx.drawImage(fg,0,cvs.height - fg.height);
-    ctx.drawImage(bird,bX,bY);
-    bY += gravity;
-    ctx.fillStyle = "#000";
-    ctx.font = "20px Verdana";
-    ctx.fillText("Score : "+score,10,cvs.height-20);
-    requestAnimationFrame(draw);
+    bY+=gravity;
+    ctx.fillStyle="#000";
+    ctx.font="20px Verdana";
+    ctx.fillText("Score:"+score,100,20);
+    
 }
-draw();
+else{
+    ctx.fillText("Game over",100,20);
+    ctx.fillText("Score:"+storescore,100,80);
+
+    document.onclick=function()
+    {
+        location.reload();
+    }
+}
+
+    
+
+
+    requestAnimationFrame(draw);
+   
+    
+}
 
 
 
+    
 
 
 
-
-
-
-
-
-
-
+    
+}
 
 
 

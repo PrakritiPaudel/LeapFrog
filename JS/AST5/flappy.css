@@ -1,0 +1,18 @@
+#btnstart{
+    height:200px;
+    width: 350px;
+    top:100px;
+    left:100px;
+    font-size:20px;
+    position: absolute;
+    background-image: url(./img/start.png);
+}
+#canvas{
+    position: relative;
+}
+.container
+{
+    height: 512px;
+    width: 288px;
+    position: relative;
+}
