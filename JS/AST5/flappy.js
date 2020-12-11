@@ -9,17 +9,17 @@ let start = document.getElementById('start-btn');
 start.style.display="none";
 
 var bird=new Image();
-bird.src='bird.png';
+bird.src='images/bird.png';
 var bg=new Image();
-bg.src='img/bg.png';
+bg.src='images/bg.png';
 var fg=new Image();
-fg.src="img/fg.png";
+fg.src="images/fg.png";
 var pipeNorth=new Image();
-pipeNorth.src="img/pipeNorth.png";
+pipeNorth.src="images/pipeNorth.png";
 var pipeSouth=new Image();
-pipeSouth.src="img/pipeSouth.png";
+pipeSouth.src="images/pipeSouth.png";
 var restartimg=new Image();
-restartimg.src="img/restart.png";
+restartimg.src="images/restart.png";
 var birdState="running";
 
 
