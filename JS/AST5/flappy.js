@@ -2,9 +2,9 @@ var startGame=function()
 {
 
 
-let cvs= document.getElementById('canvas');
+let cvs= document.getElementById('flappyBird');
 let ctx= cvs.getContext('2d');
-let start = document.getElementById('btnstart');
+let start = document.getElementById('start-btn');
 
 start.style.display="none";
 
@@ -119,12 +119,3 @@ else{
 
     
 }
-
-
-
-
-
-
-
-
-
